@@ -1,0 +1,62 @@
+/* ==================================================
+   ОФІЦІЙНИЙ ТА СТРОГИЙ СТИЛЬ
+   ================================================== */
+
+:root {
+    --bg-color: #e2e8f0; /* Помітно сірий фон для контрасту з білим */
+    --text-main: #1e293b;
+    --text-light: #475569;
+    --accent-color: #0f172a; /* Строгий темний акцент */
+    --card-bg: #ffffff;
+    --hero-bg: #0f172a; /* Глибокий темно-синій/чорний */
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+.hero {
+    background-color: var(--hero-bg);
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 20px;
+    border-bottom: 4px solid #3b82f6;
+}
+
+.label {
+    font-size: 13px;
+    font-weight: bold;
+    color: #94a3b8;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.hero-text {
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+    font-size: 18px;
+    color: #cbd5e1;
+}
+
+.button {
+    display: inline-block;
+    background-color: #3b82f6; /* Стриманий синій */
+    color: #ffffff;
+    padding: 12px 30px;
+    border-radius: 4px; /* Пряміші кути для строгості */
+    font-size: 16px
